@@ -2,6 +2,66 @@
 
 }
 
-h1 {
+#buttonLink {
+    color: black;
+    text-decoration: none;
+    margin: 0px
+
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px
+}
+
+button{
+    border: solid 1px black;
+    background-color: #fff5cf;
+    border-radius: 90px
+}
+
+#hoverButton{
+    border: solid 1px black;
+    background-color: #fff5cf;
+    border-radius: 90px;
+}
+
+#hoverbutton:hover{
+    background-color: black;
+    color: #fff5cf;
+}
+
+.container {
+  background-image: url(https://nrevans.github.io/GRA-321/code-exercises/img/Social-Distancing.jpg);
+  background-size: cover;
+  height:768px;
+  margin: 0 auto;
+  width:60%;
 
 }
+
+.picture-title {
+  color: #000000;
+  font-size:40px;
+  position:relative;
+  text-align:center;
+
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: orange;
+}
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: gray;
+}
+}
+
+.pic-2 {
+  background-image: url(https://nrevans.github.io/GRA-321/code-exercises/img/crateandbarrel.png);
+  background-size: cover;
+  height:1000px;
+  margin: 0 auto;
+  width:50%;
