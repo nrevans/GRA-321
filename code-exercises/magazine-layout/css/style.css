@@ -1,0 +1,38 @@
+* {
+background-color:white
+}
+
+.h1 {
+font: helvetica;
+font-size: 49px;
+position: relative;
+top: 30px;
+left: 120px;
+}
+
+.h2 {
+font-family: baskerville, serif;
+font-size: 27px;
+position: relative;
+top: 19px;
+left: 120px;
+}
+
+.p {
+font-family: Helvetica, sans-serif;
+font-size: 19px;
+position: relative;
+top: 29px;
+left: 120px;
+}
+
+.footer {
+  font-family: Helvetica, sans-serif;
+  font-size: 19px;
+  position: relative;
+  top: 40px;
+  left: 772px;
+}
+
+
+}
