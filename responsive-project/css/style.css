@@ -2,6 +2,48 @@
 
 }
 
-h1 {
+.boundary {
+  width: 320px;
+  height: 1995px;
+  background-color: #FFF9E9;
 
+}
+
+.coffee-pic {
+  width: 320px;
+  height: 327px;
+  background-image: url(../img/coffee.jpg);
+  background-size: cover;
+}
+
+.logo {
+  position: absolute;
+  height: 56px;
+  top: 20px;
+  left: 20px;
+}
+
+.moustache {
+  position: absolute;
+  height: 19px;
+  top: 1954px;
+  left: 122px;
+}
+
+.facebook {
+  font-family: pragmatica;
+  font-weight: 300;
+  font-size: 17px;
+  color: #FFF9E9;
+  position: absolute;
+  left: 20px;
+  top: 290px;
+}
+
+
+.address-1 {
+  font-family: pragmatica;
+  font-weight: 700;
+  font-size: 27px;
+  display: inline-block;
 }
