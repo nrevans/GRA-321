@@ -1,49 +1,191 @@
 * {
-
+  margin: 0;
+  padding: 0;
 }
 
-.boundary {
-  width: 320px;
-  height: 1995px;
-  background-color: #FFF9E9;
-
+body {
+  width: 100%;
+  background-color: #FFF9E9
 }
 
 .coffee-pic {
-  width: 320px;
-  height: 327px;
-  background-image: url(../img/coffee.jpg);
-  background-size: cover;
+  position: absolute;
+  width: 100%;
 }
 
 .logo {
+  width: 40%;
   position: absolute;
-  height: 56px;
-  top: 20px;
-  left: 20px;
-}
-
-.moustache {
-  position: absolute;
-  height: 19px;
-  top: 1954px;
-  left: 122px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .facebook {
-  font-family: pragmatica;
-  font-weight: 300;
-  font-size: 17px;
-  color: #FFF9E9;
   position: absolute;
-  left: 20px;
-  top: 290px;
-}
-
-
-.address-1 {
+  padding-top: 440px;
+  padding-left: 20px;
   font-family: pragmatica;
-  font-weight: 700;
-  font-size: 27px;
-  display: inline-block;
+  font-size: 25px;
+  font-weight: 300;
+  color: #FFF9E9;
 }
+
+.locations {
+  width: 80%;
+  padding-top: 550px;
+  margin:0 auto;
+}
+
+.bigger {
+  text-align: left;
+  font-family: pragmatica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.smaller {
+  text-align: left;
+  font-family: pragmatica;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.store-hours {
+  width: 80%;
+  max-width:1440px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position:relative;
+  padding:50px;
+}
+
+.days, .times {
+  width: 45%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.days p {
+  text-align: left;
+  font-family: pragmatica;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.times p {
+  text-align: right;
+  font-family: pragmatica;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+  font-family: pragmatica;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 75px;
+}
+
+.specials {
+  width: 80%;
+  padding-top: 20px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.specials p {
+  font-family: pragmatica;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+h2 {
+  text-align: left;
+  font-family: pragmatica;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 75px;
+  padding-left: 65px;
+}
+
+.coffee {
+  width: 80%;
+  max-width:1440px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position:relative;
+  padding:10px;
+}
+
+.menu-1, .price-1 {
+  width: 45%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.menu-1 p {
+  text-align: left;
+  font-family: pragmatica;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.price-1 p {
+  text-align: right;
+  font-family: pragmatica;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+  h3 {
+    text-align: left;
+    font-family: pragmatica;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 75px;
+    padding-left: 65px;
+  }
+
+  .sandwiches {
+    width: 80%;
+    max-width:1440px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position:relative;
+    padding:10px;
+  }
+
+  .menu-2, .price-2 {
+    width: 45%;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+  .menu-2 p {
+    text-align: left;
+    font-family: pragmatica;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .price-2 p {
+    text-align: right;
+    font-family: pragmatica;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .moustache {
+    display: block;
+    width: 33%;
+    margin: 0 auto 0 auto;
+  }
