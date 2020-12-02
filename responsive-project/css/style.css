@@ -5,40 +5,59 @@
 
 body {
   width: 100%;
-  background-color: #FFF9E9
+  background-color: #FFF9E9;
 }
+
+h1 {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 75px;
+}
+
+
 
 .coffee-pic {
-  position: absolute;
+  background-image: url(Coffee.jpg);
+  background-size: cover;
+  background-position: center;
+height: 300px;
   width: 100%;
+  display:flex;
+  flex-direction: column;
+justify-content: space-between;
 }
 
-.logo {
-  width: 40%;
-  position: absolute;
-  padding-top: 20px;
-  padding-left: 20px;
+h1.facebook {
+text-align: left;
+padding-left: 30px;
+padding-bottom: 30px;
+font-family: Helvetica;
+font-size: 25px;
+font-weight: 300;
+color: #FFF9E9;
+
 }
 
-.facebook {
-  position: absolute;
-  padding-top: 440px;
-  padding-left: 20px;
-  font-family: pragmatica;
-  font-size: 25px;
-  font-weight: 300;
-  color: #FFF9E9;
+.logo img {
+width: 25%;
+position:relative;
+margin-top: 30px;
+margin-left: 30px;
 }
+
+
 
 .locations {
   width: 80%;
-  padding-top: 550px;
+  padding-top: 20px;
   margin:0 auto;
 }
 
 .bigger {
   text-align: left;
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 40px;
   font-weight: 700;
   line-height: 60px;
@@ -46,7 +65,7 @@ body {
 
 .smaller {
   text-align: left;
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 20px;
   font-weight: 700;
   line-height: 50px;
@@ -71,25 +90,19 @@ body {
 
 .days p {
   text-align: left;
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 40px;
   font-weight: 700;
 }
 
 .times p {
   text-align: right;
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 40px;
   font-weight: 300;
 }
 
-h1 {
-  text-align: center;
-  font-family: pragmatica;
-  font-size: 40px;
-  font-weight: 700;
-  padding-top: 75px;
-}
+
 
 .specials {
   width: 80%;
@@ -99,14 +112,14 @@ h1 {
 }
 
 .specials p {
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 30px;
   font-weight: 300;
 }
 
 h2 {
   text-align: left;
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 40px;
   font-weight: 700;
   padding-top: 75px;
@@ -132,21 +145,21 @@ h2 {
 
 .menu-1 p {
   text-align: left;
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 30px;
   font-weight: 300;
 }
 
 .price-1 p {
   text-align: right;
-  font-family: pragmatica;
+  font-family: Helvetica;
   font-size: 30px;
   font-weight: 300;
 }
 
   h3 {
     text-align: left;
-    font-family: pragmatica;
+    font-family: Helvetica;
     font-size: 40px;
     font-weight: 700;
     padding-top: 75px;
@@ -172,20 +185,30 @@ h2 {
 
   .menu-2 p {
     text-align: left;
-    font-family: pragmatica;
+    font-family: Helvetica;
     font-size: 30px;
     font-weight: 300;
   }
 
   .price-2 p {
     text-align: right;
-    font-family: pragmatica;
+    font-family: Helvetica;
     font-size: 30px;
     font-weight: 300;
   }
 
   .moustache {
     display: block;
-    width: 33%;
+    width: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0 auto 0 auto;
+  }
+
+  @media only screen and (min-width:500px) {
+
+    .coffee-pic {
+      height: 600px;
+    }
+
   }
